@@ -10,7 +10,7 @@ class Driver{
     // return year - this.startDate.getFullYear() -1;
 
     let startDate = this.startDate
-		let startYear = startDate.getFullYear()
+		let startYear = startDate.getFullYear() -1;
 		return year - startYear
 	}
 }
