@@ -14,7 +14,7 @@ class Driver{
 
     		let startDate = this.startDate
 
-    		let startYear = startDate.getFullYear()
+    		let startYear = startDate.getFullYear() -1;
 
     		return endDate - startYear
 
